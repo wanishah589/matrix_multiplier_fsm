@@ -5,7 +5,7 @@ module tb_matrix_mac_3x3;
     reg clk, reset, start;
     wire done;
 
-    // Instantiate DUT (Device Under Test)
+    
     matrix_mac_3x3 uut (
         .clk(clk),
         .reset(reset),
